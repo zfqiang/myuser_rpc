@@ -1,0 +1,7 @@
+Name: user.rpc
+ListenOn: 0.0.0.0:8080
+Mysql:
+  DataSource: user:password@tcp(127.0.0.1:3306)/myuser_rpc?charset=utf8mb4&parseTime=true&loc=Local
+Redis:
+  Host: 127.0.0.1:6379
+  Type: node
